@@ -1,0 +1,13 @@
+$textcolor: white;
+.text_color{
+    color:$textcolor;
+}
+tr{
+   @extend .text_color;
+}
+th{
+    @extend .text_color;
+}
+h4{
+    @extend .text_color;
+}

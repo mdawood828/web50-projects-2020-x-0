@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Mon, 13 Apr 2020 07:34:05 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>My Website</title>
+  </head>
+  <body>
+  <h2 class="text-center intro alert alert-dark">Welcome! Introduction to Computer</h2>
+  <section>
+  <button class="btn btn-primary" onclick="openframe('home.html')">Computer</button>
+  <button class="btn btn-danger" onclick="openframe('devices.html')">Devices</button>
+  <button class="btn btn-success" onclick="openframe('uses.html')">Uses</button>
+  <button class="btn btn-info" onclick="openframe('media.html')">Media</button>
+  </section>
+<iframe height="300px" width="98%" src="home.html" name="iframe_a" class="iframe" id="iframe">
+You'll See page here.
+</iframe>
+  </body>
+  <script>
+  function openframe(a){
+    document.getElementById("iframe").src=""+a;
+  }
+  
+  </script>
+</html>
